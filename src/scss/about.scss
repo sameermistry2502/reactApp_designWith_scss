@@ -1,0 +1,32 @@
+.words{
+    font-family:Muli;
+    >h2{
+        color:darkblue;
+        line-height:60px
+    }
+    >ul{
+        color:grey;
+       
+    }
+    >li{
+        color:grey;
+        line-height:30px;
+        text-align: justify;
+    }
+}
+
+
+.container{
+    h1{
+        color:darkblue;
+        font-size: 40px;
+        text-align:center;
+        line-height: 100px;
+        font-family:Courgette;
+    }
+    display: inline-block;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}

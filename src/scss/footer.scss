@@ -1,0 +1,38 @@
+$padding-default: 0.5em;
+$background-color:#26272b;
+$color-footer: #263238;
+$footer-ico-color:  #f4f4f4;
+$footer-ico-margin:  0.5rem;
+footer {
+    height: auto;
+    h1 {
+      background:$background-color;
+      padding: $padding-default 0;
+    }
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: $color-footer;
+    text-align: center;
+    color:$footer-ico-color;
+}
+
+.icons{
+    padding-top: 1rem;
+}
+
+.icons a{
+    text-decoration: none;
+    font-size: 2rem;
+    margin: $footer-ico-margin;
+    color:$footer-ico-color;
+}
+
+.company-name{
+    font-size: 1.6rem;
+    margin-top: $footer-ico-margin;
+}
+  
